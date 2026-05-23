@@ -1,4 +1,15 @@
+"use client"
+import { useEffect } from "react"
+
 export default function ThankYou() {
+  useEffect(() => {
+    if (typeof window !== "undefined" && (window as any).gtag) {
+      (window as any).gtag('event', 'conversion', {
+        'send_to': 'AW-18172939254/Di3cCNXgsLIcEPaXxNlD'
+      })
+    }
+  }, [])
+
   return (
     <main dir="rtl" style={{
       minHeight: "100vh", display: "flex", alignItems: "center", justifyContent: "center",
