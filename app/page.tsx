@@ -372,7 +372,8 @@ export default function Page() {
           </R>
           <R d={.2}>
             <div style={{ marginTop: 14, background: "rgba(139,26,26,.05)", borderRadius: 8, padding: "12px", border: "1px solid rgba(139,26,26,.1)", textAlign: "center" }}>
-              <span style={{ fontSize: ".82rem", color: "#8B1A1A", fontWeight: 700 }}>💰 عمولة الوسطاء: 3%</span>
+              <span style={{ fontSize: ".82rem", color: "#8B1A1A", fontWeight: 700 }}>مدينة متكاملة في رأس الحكمة
+</span>
             </div>
           </R>
         </div>
