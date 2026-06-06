@@ -20,11 +20,11 @@ export default function ThankYou() {
         <h1 style={{ fontSize: "1.8rem", fontWeight: 800, marginBottom: ".5rem", color: "#1a1a1a" }}>تم الإرسال بنجاح!</h1>
         <p style={{ color: "#888", marginBottom: "2rem", fontSize: ".9rem", lineHeight: 1.7 }}>شكراً لاهتمامك بمشروع Palm Hills رأس الحكمة. فريقنا هيتواصل معاك خلال 24 ساعة بالبروشور والأسعار التفصيلية.</p>
         <div style={{ background: "#fff", border: "1px solid rgba(0,0,0,.06)", borderRadius: 12, padding: "20px", marginBottom: "20px" }}>
-          <a href="tel:+201009005579" dir="ltr" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid rgba(0,0,0,.05)", textDecoration: "none", color: "#1a1a1a" }}>
-            <span style={{ fontWeight: 700, fontSize: ".95rem" }}>0100 900 5579</span>
+          <a href="tel:+201016446133" dir="ltr" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", borderBottom: "1px solid rgba(0,0,0,.05)", textDecoration: "none", color: "#1a1a1a" }}>
+            <span style={{ fontWeight: 700, fontSize: ".95rem" }}>0101 644 6133</span>
             <span style={{ fontSize: ".72rem", color: "#8B1A1A", fontWeight: 600 }}>📞 اتصال مباشر</span>
           </a>
-          <a href="https://wa.me/201009005579" target="_blank" rel="noopener noreferrer" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", textDecoration: "none" }}>
+          <a href="https://wa.me/201016446133" target="_blank" rel="noopener noreferrer" style={{ display: "flex", justifyContent: "space-between", alignItems: "center", padding: "12px 0", textDecoration: "none" }}>
             <span style={{ fontWeight: 700, color: "#25D366", fontSize: ".95rem" }}>واتساب</span>
             <span style={{ fontSize: ".72rem", color: "#888" }}>💬 رد فوري</span>
           </a>
