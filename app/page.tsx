@@ -2,8 +2,8 @@
 import React, { useState, useEffect, useRef } from "react"
 import { useRouter } from "next/navigation"
 
-const PHONE = "+201016446133"
-const WA = "https://wa.me/201016446133"
+const PHONE = "+201040779799"
+const WA = "https://wa.me/201040779799"
 const WEB3_KEY = "0cbeba5b-8f93-46c7-b7a6-f5392f78a746"
 
 /* ── Data ── */
@@ -143,7 +143,7 @@ export default function Page() {
           {[["المشروع", "project"], ["الماستر بلان", "masterplan"], ["الأسعار", "prices"], ["المطور", "developer"], ["تواصل", "contact"]].map(([l, id]) => (
             <button key={id} onClick={() => scroll(id)} style={{ background: "none", border: "none", cursor: "pointer", fontSize: ".74rem", fontWeight: 600, color: scrolled ? "#8B7355" : "rgba(255,255,255,.55)", fontFamily: "'Almarai',sans-serif", letterSpacing: ".04em", transition: "color .2s" }}>{l}</button>
           ))}
-          <a href={`tel:${PHONE}`} onClick={() => (window as any).trackCall(`tel:${PHONE}`)} dir="ltr" style={{ fontSize: ".82rem", fontWeight: 700, textDecoration: "none", color: scrolled ? "#8B1A1A" : "#fff" }}>0101 644 6133</a>
+          <a href={`tel:${PHONE}`} onClick={() => (window as any).trackCall(`tel:${PHONE}`)} dir="ltr" style={{ fontSize: ".82rem", fontWeight: 700, textDecoration: "none", color: scrolled ? "#8B1A1A" : "#fff" }}>01040779799</a>
           <button onClick={() => scroll("contact")} style={{ background: "#8B1A1A", color: "#fff", border: "none", padding: "9px 18px", fontWeight: 700, fontSize: ".72rem", cursor: "pointer", fontFamily: "'Almarai',sans-serif", borderRadius: 6 }}>سجّل الآن</button>
         </div>
       </nav>
@@ -411,7 +411,7 @@ export default function Page() {
             <p style={{ fontSize: ".65rem", fontWeight: 700, letterSpacing: ".25em", color: "rgba(255,255,255,.45)", marginBottom: 10 }}>تواصل معنا</p>
             <h2 style={{ fontFamily: "'Playfair Display',serif", fontSize: "2.2rem", fontWeight: 500, color: "#fff", lineHeight: 1.1, marginBottom: 14 }}>ابدأ رحلتك<br /><span style={{ fontStyle: "italic", opacity: .3 }}>في رأس الحكمة</span></h2>
             <p style={{ fontSize: ".85rem", color: "rgba(255,255,255,.5)", lineHeight: 1.85, marginBottom: 28 }}>سجّل بياناتك واحصل على البروشور والأسعار التفصيلية وخطط السداد. فريقنا هيتواصل معاك خلال 24 ساعة.</p>
-            <a href={`tel:${PHONE}`} onClick={() => (window as any).trackCall(`tel:${PHONE}`)} dir="ltr" style={{ fontFamily: "'Playfair Display',serif", fontSize: "2rem", fontWeight: 600, color: "#fff", textDecoration: "none", marginBottom: 20 }}>0101 644 6133</a>
+            <a href={`tel:${PHONE}`} onClick={() => (window as any).trackCall(`tel:${PHONE}`)} dir="ltr" style={{ fontFamily: "'Playfair Display',serif", fontSize: "2rem", fontWeight: 600, color: "#fff", textDecoration: "none", marginBottom: 20 }}>01040779799</a>
             <div style={{ display: "flex", gap: 10 }}>
               <a href={`${WA}?text=${encodeURIComponent("مرحباً، أنا مهتم بمشروع Palm Hills رأس الحكمة 1400 فدان")}`} onClick={() => (window as any).trackWhatsapp()} target="_blank" rel="noopener noreferrer"
                 style={{ padding: "12px 24px", background: "#25D366", color: "#fff", fontWeight: 700, fontSize: ".78rem", textDecoration: "none", borderRadius: 8 }}>💬 واتساب</a>
